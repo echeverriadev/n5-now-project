@@ -1,0 +1,6 @@
+[submodule "harry-potter"]
+	path = harry-potter
+	url = https://github.com/echeverriadev/harry-potter
+[submodule "main"]
+	path = main
+	url = git@github.com:echeverriadev/main.git
