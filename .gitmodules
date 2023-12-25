@@ -1,6 +1,9 @@
 [submodule "harry-potter"]
 	path = harry-potter
 	url = https://github.com/echeverriadev/harry-potter
+[submodule "rick-and-morty"]
+	path = rick-and-morty
+	url = https://github.com/echeverriadev/rick-and-morty
 [submodule "main"]
 	path = main
 	url = git@github.com:echeverriadev/main.git
