@@ -19,6 +19,9 @@
   <summary name="readme-top">Tabla de contenido</summary>
   <ol>
     <li>
+      <a href="#respuesta-a-las-preguntas">Respuestas cuestionario</a>
+    </li>
+    <li>
       <a href="#sobre-el-proyecto">Hablemos del proyecto</a>
     </li>
     <li>
@@ -161,6 +164,26 @@ Listado Harry Potter: [harry-potter](https://github.com/echeverriadev/harry-pott
 Listado Rick and Morty: [rick-and-morty](https://github.com/echeverriadev/rick-and-morty)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Respuesta a las preguntas
+### ¿Qué es la accesibilidad? ¿Cómo se logra?
+La accesibilidad se refiere a la práctica de asegurar que los productos, servicios sean utilizables por todas las personas, incluyendo aquellas con discapacidades. Se logra mediante el diseño y desarrollo de interfaces, que sean amigables y sensibles al usuario.
+
+### ¿Cuál es la diferencia entre sessionStorage, localStorage y cookies?
+sessionStorage y localStorage son mecanismos de almacenamiento web en el navegador que permiten a las aplicaciones web almacenar datos de forma persistente o de sesión. La principal diferencia radica en la duración de almacenamiento: los datos en sessionStorage persisten solo durante la sesión del navegador, mientras que los datos en localStorage persisten incluso después de cerrar y volver a abrir el navegador. Las cookies son pequeños datos que los navegadores almacenan y envían con cada solicitud HTTP, y tienen un tiempo de expiración.
+
+### Explica el bucle de eventos de JavaScript (también puedes explicar cómo funcionan las promesas o async/await en JavaScript, ya que básicamente son la misma pregunta/respuesta).
+El bucle de eventos de JavaScript es el mecanismo que gestiona la ejecución de código asíncrono. Funciona mediante la colocación de funciones asíncronas en la cola de eventos y las ejecuta en un solo hilo. Las promesas y async/await son formas de trabajar con código asíncrono de manera más legible y mantenible. Las promesas representan valores que pueden estar disponibles ahora, en el futuro o nunca, mientras que async/await proporciona una sintaxis más sencilla para trabajar con promesas, haciendo que el código asíncrono se vea y se comporte de manera similar al código síncrono.
+
+### Si estás recibiendo demasiadas llamadas a la API desde tus hooks, ¿qué puedes hacer para evitarlo?
+Para evitar un exceso de llamadas a la API desde los hooks, puedes implementar técnicas como el almacenamiento en caché de resultados anteriores, la debouncing (retardo) de llamadas para evitar solicitudes frecuentes y redundantes.
+
+### ¿Cómo gestionas el estado global? ¿Y por qué de esa manera?
+La gestión del estado global se puede realizar mediante la utilización de herramientas como Context API en React, Redux u otros sistemas de gestión de estado. La elección depende de la complejidad de la aplicación y de las preferencias del desarrollador. El uso de un estado global permite compartir datos entre componentes sin necesidad de pasar propiedades manualmente a través de la jerarquía de componentes, lo que facilita el mantenimiento y la escalabilidad del código.
+
+### ¿Qué es el renderizado progresivo?
+El renderizado progresivo es una técnica que consiste en cargar y mostrar contenido de una página web de manera gradual en lugar de esperar a que todos los elementos estén listos antes de mostrar algo al usuario. Esto mejora la percepción de velocidad y la experiencia del usuario, ya que pueden ver y comenzar a interactuar con la página antes de que todos los recursos estén completamente cargados. Se logra priorizando y entregando primero los elementos esenciales, como el texto y las imágenes principales, antes de cargar elementos menos críticos.
 
 
 
